@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1">
     <test name="Regression">
         <classes>
-            <class name="WikipediaTest"/>
+            <class name="com.telran.wikipedia.tests.WikipediaTest"/>
         </classes>
     </test>
 </suite>

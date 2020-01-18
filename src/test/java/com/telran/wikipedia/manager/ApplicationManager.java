@@ -1,21 +1,22 @@
-import org.openqa.selenium.By;
+package com.telran.wikipedia.manager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.BrowserType;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestBase {
-    protected static WebDriver wd;
+public class ApplicationManager {
 
-    @BeforeSuite
-    public void setUp() {
+    WebDriver wd;
 
+    WikipediaHelper wik;
+
+
+    public void init() {
         String browser = System.getProperty("browser", BrowserType.CHROME);
         if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
@@ -29,26 +30,19 @@ public class TestBase {
 
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.get("https://www.wikipedia.org/");
+
+        wik = new WikipediaHelper(wd);
     }
 
-    @AfterSuite
-    public void tearDown() {
+    public void stop() {
         wd.quit();
-    }
-
-    public void back() {
-        wd.navigate().back();
-    }
-
-    public void click(By locator) {
-        wd.findElement(locator).click();
     }
 
     public void maximize() {
         wd.manage().window().maximize();
     }
 
-    public void pause(int time) throws InterruptedException {
-        Thread.sleep(time);
+    public WikipediaHelper getWik() {
+        return wik;
     }
 }
