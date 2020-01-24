@@ -29,10 +29,13 @@ public class ApplicationManager {
         }
 
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        maximize();
         wd.get("https://www.wikipedia.org/");
 
         wik = new WikipediaHelper(wd);
+
     }
+
 
     public void stop() {
         wd.quit();
@@ -45,4 +48,5 @@ public class ApplicationManager {
     public WikipediaHelper getWik() {
         return wik;
     }
+
 }
