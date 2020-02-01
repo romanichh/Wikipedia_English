@@ -1,0 +1,20 @@
+2020-02-02 00:04:57,986 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.cssSelector: #js-link-box-en
+2020-02-02 00:04:58,026 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.cssSelector: #js-link-box-en found
+2020-02-02 00:04:59,818 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[@id='ca-history']
+2020-02-02 00:04:59,898 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[@id='ca-history'] found
+2020-02-02 00:05:03,697 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.cssSelector: #ca-viewsource
+2020-02-02 00:05:03,732 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.cssSelector: #ca-viewsource found
+2020-02-02 00:05:07,844 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[contains(@title, 'Arts')]
+2020-02-02 00:05:07,880 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[contains(@title, 'Arts')] found
+2020-02-02 00:05:11,393 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[@type='search']
+2020-02-02 00:05:11,437 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[@type='search'] found
+2020-02-02 00:05:14,514 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.cssSelector: [title=Wikipedia]
+2020-02-02 00:05:14,545 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.cssSelector: [title=Wikipedia] found
+2020-02-02 00:05:19,091 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[@class='mw-wiki-logo']
+2020-02-02 00:05:19,133 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[@class='mw-wiki-logo'] found
+2020-02-02 00:05:19,496 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[contains(@title, 'Technology')]
+2020-02-02 00:05:19,543 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[contains(@title, 'Technology')] found
+2020-02-02 00:05:23,568 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[@title='Commons']
+2020-02-02 00:05:23,590 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[@title='Commons'] found
+2020-02-02 00:05:28,486 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:31] Search element By.xpath: //*[contains(@title, 'Foundation')]
+2020-02-02 00:05:28,519 INFO [Test worker] c.t.w.m.ApplicationManager$MyListener [ApplicationManager.java:37] By.xpath: //*[contains(@title, 'Foundation')] found
